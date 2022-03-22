@@ -1,0 +1,29 @@
+{
+  "name": "@relay-next/example",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "relay": "relay-compiler"
+  },
+  "dependencies": {
+    "@graphql-tools/schema": "^8.3.3",
+    "axios": "^0.26.1",
+    "graphql": "15",
+    "http-status-codes": "^2.2.0",
+    "next": "^12.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-relay": "12",
+    "relay-next": "workspace:^",
+    "relay-runtime": "12"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.22",
+    "@types/react": "^17.0.41",
+    "@types/react-dom": "^17.0.14",
+    "@types/react-relay": "11",
+    "@types/relay-runtime": "12",
+    "relay-compiler": "12",
+    "typescript": "^4.6.2"
+  }
+}

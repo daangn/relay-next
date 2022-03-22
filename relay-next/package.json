@@ -1,0 +1,32 @@
+{
+  "name": "relay-next",
+  "version": "0.1.0",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.41",
+    "@types/react-relay": "^11",
+    "@types/relay-runtime": "^12",
+    "next": "^12.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-relay": "^12",
+    "relay-runtime": "^12",
+    "typescript": "^4.6.2"
+  },
+  "peerDependencies": {
+    "@types/react-relay": "^11",
+    "@types/relay-runtime": "^12",
+    "next": ">=12.1.0",
+    "react": ">=16.8",
+    "react-dom": ">=16.8",
+    "react-relay": "^12",
+    "relay-runtime": "^12"
+  }
+}
